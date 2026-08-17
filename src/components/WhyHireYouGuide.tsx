@@ -1,14 +1,6 @@
 'use client'
 import { useState } from "react";
 import { ChevronRight, CircleCheck } from "lucide-react";
-
-// ---------------------------------------------------------------------------
-// "Why Should We Hire You" — answer blueprint
-// Concept: the 8 points aren't a checklist, they're parts you weld together
-// into one answer. Left rail is a rivet-line that "completes" as you open
-// each panel, ending in an assembled-answer summary strip at the bottom.
-// ---------------------------------------------------------------------------
-
 const POINTS = [
   {
     n: "01",
